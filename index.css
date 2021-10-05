@@ -1,0 +1,136 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+fieldset {
+  width: 100%;
+  border: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input {
+  width: 260px;
+}
+
+label {
+  font-size: 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+textarea {
+  appearance: none;
+  border-radius: 0.25rem;
+  border-width: 1px;
+  padding: 8px 16px;
+  height: 125px;
+  width: 350px;
+}
+
+body {
+  height: 100vh;
+  font-family: "Roboto", sans-serif;
+}
+
+.hide {
+  display: none !important;
+}
+
+.show {
+  display: flex;
+}
+
+.container {
+  height: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-container {
+  padding: 8px;
+  display: flex;
+  width: 700px;
+  justify-content: center;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-header {
+  font-size: 32px;
+}
+
+.form-field {
+  margin-top: 24px;
+  position: relative;
+}
+
+.fa {
+  position: absolute;
+  top: 25px;
+  left: 8px;
+}
+
+.form-field label {
+  display: block;
+}
+
+.form-field input {
+  margin-top: 4px;
+  padding-left: 34px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+
+.btn-container {
+  margin-top: 8px;
+  width: 100%;
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+}
+
+.btn-container button {
+  border: none;
+  background: #404040;
+  color: #ffffff !important;
+  font-weight: 600;
+  padding: 8px;
+  text-transform: uppercase;
+  border-radius: 6px;
+  width: 125px;
+}
+
+.work-experience-form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.skill-set {
+  display: flex;
+  gap: 24px;
+}
